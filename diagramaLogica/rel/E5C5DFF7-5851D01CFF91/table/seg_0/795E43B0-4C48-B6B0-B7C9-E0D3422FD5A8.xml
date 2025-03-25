@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="795E43B0-4C48-B6B0-B7C9-E0D3422FD5A8" name="Mers_trenuri">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>EE3786A0-3A37-367F-4686-D9E9F9CED812</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_mers" id="C50345A5-BB8B-5C9E-60E7-F6140CC08596">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>7B4E39EE-68D6-A9CC-250B-124E73FEC126</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementStartWith>100</autoIncrementStartWith>
+<autoIncrementMaxValue>999</autoIncrementMaxValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data" id="3696405B-5716-83B1-3165-E9F0913030BE">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>CE859847-CEF5-1CB2-E605-4457E61962A2</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<constraintName>mers_trenuri_data_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="data&gt;=TO_DATE(&apos;28.10.2024&apos;, &apos;DD.MM.YYYY&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="locuri_ocupate" id="7BE7CD9E-6F65-6556-4309-31D473F29007">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>54AFD9C8-1B1E-5B01-6FA4-BDA8DBB9F157</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="peron" id="5BBA5229-14D2-1880-0522-4DA9087F531C">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>964661C9-25BC-7836-5EE3-5DEC348BF290</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_tren" id="65D58D00-549F-A8D4-7345-87F9977E8FA5">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>AA2731DC-EDBC-E0AF-D6D0-3998E07CEF27</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A4605F4-0E84-052D-70E3-941F7F460A00" referredColumn="64E1117C-3D85-95F8-E523-BCB05F0044BE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D5721FE-0E42-73D4-D47E-BE2FEB7E0571" name="Mers_trenuri_PK">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>BBEE8767-C655-DE31-0B5C-5AD140B41874</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C50345A5-BB8B-5C9E-60E7-F6140CC08596"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB7020C5-88EF-03C9-9EC4-02BFC5CD27FD" name="Mers_trenuri_Tren_FK">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>70614975-5BCA-1E49-86D4-7DB15211EB3D</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65D58D00-549F-A8D4-7345-87F9977E8FA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

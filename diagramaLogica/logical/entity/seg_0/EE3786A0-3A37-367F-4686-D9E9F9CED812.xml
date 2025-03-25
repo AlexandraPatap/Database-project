@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EE3786A0-3A37-367F-4686-D9E9F9CED812" name="Mers_trenuri">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-10-27 12:24:04 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_mers" id="7B4E39EE-68D6-A9CC-250B-124E73FEC126">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-10-27 12:24:43 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="CE859847-CEF5-1CB2-E605-4457E61962A2">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-10-27 12:25:13 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="true"/>
+</engineerTo>
+<constraintName>mers_trenuri_data_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="data&gt;=TO_DATE(&apos;28.10.2024&apos;, &apos;DD.MM.YYYY&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="locuri_ocupate" id="54AFD9C8-1B1E-5B01-6FA4-BDA8DBB9F157">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-10-27 12:25:40 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peron" id="964661C9-25BC-7836-5EE3-5DEC348BF290">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-10-27 12:26:49 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_tren" id="AA2731DC-EDBC-E0AF-D6D0-3998E07CEF27">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-11-11 11:30:02 UTC</createdTime>
+<generatorID>70614975-5BCA-1E49-86D4-7DB15211EB3D</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>40E10B32-73CC-8577-A241-63C5AFA21FDC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BBEE8767-C655-DE31-0B5C-5AD140B41874" name="Mersul_trenurilor PK">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-10-27 12:25:10 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7B4E39EE-68D6-A9CC-250B-124E73FEC126</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="departamente_angajati_fk" directorySegmentName="seg_0" id="BEDD6DF0-E7E0-BB5A-2013-7BB70F662943">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-11-09 13:51:46 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="true"/>
+</engineerTo>
+<sourcePk>3F8CCD82-E738-5290-B28C-6E6B2141A98D</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>are</nameOnSource>
+<nameOnTarget>face parte</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9B5FF204-E612-9929-B00F-6A5C39944E69</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D9B3F82C-018F-9302-E6CB-9AA5FDF285DB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

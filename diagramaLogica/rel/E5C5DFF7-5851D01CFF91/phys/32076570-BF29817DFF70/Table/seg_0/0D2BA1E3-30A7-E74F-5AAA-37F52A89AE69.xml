@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Rezervare" directorySegmentName="seg_0" id="0D2BA1E3-30A7-E74F-5AAA-37F52A89AE69">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="cnp_pasager" id="2B6B8B44-D4EB-F117-C212-8552882CC3A0">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nr_vagon" id="54B8647E-2E2B-BE7A-E7FA-DD059F634AA2">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_mers" id="99F809F9-6077-4474-CDF0-2E2EE190A6CC">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-11 10:32:05 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="plata" id="AC3699FF-A55B-9817-DD9C-ED1B22394D4C">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nr_rezervare" id="B9E2379A-EC4B-21C7-EF97-D3FCA4DEBEA9">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="data_rezervare" id="F2F68472-21AE-84A9-5DCD-A928BCF51172">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nr_loc" id="FAB560FB-D1C9-0D91-0AC2-60513F9AE202">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Rezervare_Pasager_FK" id="5F2E2563-C592-5A10-56A4-995707F528D8">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Rezervare_Mers_trenuri_FK" id="FB18455F-660C-BBF7-03D9-6599CEC2B310">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-11 10:32:05 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Rezervare_PK" id="26D7A433-DD58-83EC-70BE-4D2B64CAAAAA">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

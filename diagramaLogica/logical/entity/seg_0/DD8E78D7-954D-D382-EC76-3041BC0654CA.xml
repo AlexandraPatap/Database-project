@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DD8E78D7-954D-D382-EC76-3041BC0654CA" name="Rezervare">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-10-27 12:13:02 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_rezervare" id="70A1D4AA-5A52-66A0-5582-1EC7B5DCFA04">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-10-27 12:13:14 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_rezervare" id="FE5016E5-4436-1CDC-5DA8-FD2674D31128">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-10-27 12:14:18 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="true"/>
+</engineerTo>
+<constraintName>rezervare_data_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="data_rezervare &lt;=TO_DATE(&apos;30.01.2025&apos;, &apos;DD.MM.YYYY&apos;)
+"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_vagon" id="55B739EF-AC2D-2A70-9B40-A4FA4B636D61">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-10-27 12:19:44 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_loc" id="0537ADB7-825E-C4D3-1230-54F09D80E0E3">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-10-27 12:20:28 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="plata" id="8C4AD7CC-1B8D-A1EA-78AE-B46487A69326">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-10-27 12:22:26 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cnp_pasager" id="A0AF3799-9BCF-1F76-296C-5581DF87DCD4">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-11-11 11:24:24 UTC</createdTime>
+<generatorID>E1871DF2-039B-CACF-8E21-3597EFF03D84</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="true"/>
+</engineerTo>
+<referedAttribute>E26AD792-8A0C-658A-9958-4F007DBF52D3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_mers" id="CAE6C6AA-AF5E-1035-1B8A-0BF16A3ED784">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-11 10:31:00 UTC</createdTime>
+<generatorID>C75C025A-4485-2EE2-DCB7-D3A0841932C2</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="true"/>
+</engineerTo>
+<referedAttribute>7B4E39EE-68D6-A9CC-250B-124E73FEC126</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DBCC999F-A1A9-7687-42D3-6435B22E12DD" name="Rezervare PK">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-10-27 12:14:14 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>70A1D4AA-5A52-66A0-5582-1EC7B5DCFA04</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

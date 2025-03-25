@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="93AED108-271F-2B17-FA9B-7AD908BD3C17" name="Gara">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-10-27 10:36:58 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_gara" id="3372AD16-9929-8432-8873-6487D2BE2558">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-10-27 11:11:44 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="oras" id="C69B65D0-2CE8-9905-9DDF-B26D8EF9A656">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-10-27 11:23:46 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="true"/>
+</engineerTo>
+<constraintName>gara_oras_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="REGEXP_LIKE ( oras, &apos;[a-z A-Z]+&apos; ) "/>
+</checkConstraint>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="36EF53E4-3089-101B-74EE-E0F8C9D97843" name="Gara PK">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-10-27 11:12:15 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3372AD16-9929-8432-8873-6487D2BE2558</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

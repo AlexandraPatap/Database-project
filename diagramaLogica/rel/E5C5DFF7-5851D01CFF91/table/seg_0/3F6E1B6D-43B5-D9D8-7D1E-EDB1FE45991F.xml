@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F6E1B6D-43B5-D9D8-7D1E-EDB1FE45991F" name="Tren">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>BBB9571A-8E8B-45E9-8BCE-E59F72C2A1A3</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_tren" id="64E1117C-3D85-95F8-E523-BCB05F0044BE">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>40E10B32-73CC-8577-A241-63C5AFA21FDC</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="companie" id="252D74E6-769B-5964-E025-7111890A1C15">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>F2EB19A3-9688-A89D-DA9F-EE98601A027C</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacitate" id="CEBDA251-B01D-4295-DFF8-80BF29A7F860">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>F207AC66-16DA-9E0D-214C-87246568CEA1</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_gara" id="C65F1895-E454-5F4E-3A00-6A0E4B609003">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>8B2809E4-9109-EDFF-3CF3-A2142D12EBC2</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="912D32E0-0AD3-CBDC-2048-4EF3815304CA" referredColumn="2125503E-078A-1661-135F-7596A660CAB5"/>
+</associations>
+</Column>
+<Column name="cnp_angajat" id="3CCA7F14-E341-8965-0112-D952A05D0D9C">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>F2CFDBBD-AE7C-AAF6-57C4-0B94C284F9D1</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06A63134-31D2-B5AD-A63D-01BCE50BAD14" referredColumn="98FAC1D1-4AE7-2FBC-588B-F282A8946FEF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C6702190-AFCF-458F-35D6-4FB4FA025E3C" name="Tren_PK">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>1890E86A-AFEC-6731-36CD-18A220199193</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64E1117C-3D85-95F8-E523-BCB05F0044BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74B34F74-844E-BAA3-5AB8-5812F7AFBD37" name="Tren_Angajat_FK">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>29B88615-2F95-5F13-6ED2-1BE9A4CBC5AC</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CCA7F14-E341-8965-0112-D952A05D0D9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6513E2B3-A330-741D-3350-CA177EA7EB8A" name="Tren_Gara_FK">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>F92AF1CF-37FB-010F-C2B9-A0EB4E94E6C1</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C65F1895-E454-5F4E-3A00-6A0E4B609003"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

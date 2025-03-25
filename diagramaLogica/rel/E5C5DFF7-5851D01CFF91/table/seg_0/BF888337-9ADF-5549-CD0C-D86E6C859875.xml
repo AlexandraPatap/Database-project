@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BF888337-9ADF-5549-CD0C-D86E6C859875" name="Gara">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>93AED108-271F-2B17-FA9B-7AD908BD3C17</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_gara" id="2125503E-078A-1661-135F-7596A660CAB5">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>3372AD16-9929-8432-8873-6487D2BE2558</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementIncrementBy>10</autoIncrementIncrementBy>
+<autoIncrementMaxValue>999</autoIncrementMaxValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="oras" id="3AC31493-2668-FA6C-B20D-79673A4B221C">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>C69B65D0-2CE8-9905-9DDF-B26D8EF9A656</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<constraintName>gara_oras_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="REGEXP_LIKE ( oras, &apos;[a-z A-Z]+&apos; ) "/>
+</checkConstraint>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5B7C27B1-CC05-01D6-0923-581A6E2D21C6" name="Gara_PK">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>36EF53E4-3089-101B-74EE-E0F8C9D97843</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2125503E-078A-1661-135F-7596A660CAB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

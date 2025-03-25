@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3FEB4772-37CE-3418-66A0-01D522585ADD" containerWithKeyObject="0D2BA1E3-30A7-E74F-5AAA-37F52A89AE69" localFKIndex="FB18455F-660C-BBF7-03D9-6599CEC2B310" name="Rezervare_Mers_trenuri_FK">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-11 10:32:05 UTC</createdTime>
+<generatorID>BBEE8767-C655-DE31-0B5C-5AD140B41874</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<referredTableLongName>Mers_trenuri</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>795E43B0-4C48-B6B0-B7C9-E0D3422FD5A8</referredTableID>
+<keyObject>8D5721FE-0E42-73D4-D47E-BE2FEB7E0571</keyObject>
+<referredKeyID>8D5721FE-0E42-73D4-D47E-BE2FEB7E0571</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_mers</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

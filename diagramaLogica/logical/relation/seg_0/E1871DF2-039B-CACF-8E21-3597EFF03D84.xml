@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pasager_rezervare_fk" directorySegmentName="seg_0" id="E1871DF2-039B-CACF-8E21-3597EFF03D84">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-11-11 11:24:24 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="true"/>
+</engineerTo>
+<sourcePk>42ACAF2C-37A9-F31E-79E8-DC0D6610F93C</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>face o</nameOnSource>
+<nameOnTarget>este facuta de</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>57DFDD93-2505-D3CC-DD94-309B6DB73991</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DD8E78D7-954D-D382-EC76-3041BC0654CA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

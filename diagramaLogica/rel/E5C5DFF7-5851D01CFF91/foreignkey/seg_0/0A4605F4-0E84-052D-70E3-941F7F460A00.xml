@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0A4605F4-0E84-052D-70E3-941F7F460A00" containerWithKeyObject="795E43B0-4C48-B6B0-B7C9-E0D3422FD5A8" localFKIndex="CB7020C5-88EF-03C9-9EC4-02BFC5CD27FD" name="Mers_trenuri_Tren_FK">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>70614975-5BCA-1E49-86D4-7DB15211EB3D</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<referredTableLongName>Tren</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3F6E1B6D-43B5-D9D8-7D1E-EDB1FE45991F</referredTableID>
+<keyObject>C6702190-AFCF-458F-35D6-4FB4FA025E3C</keyObject>
+<referredKeyID>C6702190-AFCF-458F-35D6-4FB4FA025E3C</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>nr_tren,cnp_angajat</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

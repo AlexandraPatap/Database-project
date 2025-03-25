@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A223C52E-7CD0-D503-906C-A15E0C1EE7B6" containerWithKeyObject="F559CE3D-EE13-F96D-04BD-D221EB530980" localFKIndex="30EA4EA0-9F7C-3FE3-2E7D-AF1C7BA376D2" name="Departament_Gara_FK">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>4064DB34-62B4-98A8-6C30-1FBC9A031E07</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<referredTableLongName>Gara</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BF888337-9ADF-5549-CD0C-D86E6C859875</referredTableID>
+<keyObject>5B7C27B1-CC05-01D6-0923-581A6E2D21C6</keyObject>
+<referredKeyID>5B7C27B1-CC05-01D6-0923-581A6E2D21C6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_gara</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

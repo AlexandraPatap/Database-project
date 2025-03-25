@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="gara_tren_fk" directorySegmentName="seg_0" id="F92AF1CF-37FB-010F-C2B9-A0EB4E94E6C1">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-11-08 08:56:35 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="true"/>
+</engineerTo>
+<sourcePk>36EF53E4-3089-101B-74EE-E0F8C9D97843</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>detine</nameOnSource>
+<nameOnTarget>este detinut</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>93AED108-271F-2B17-FA9B-7AD908BD3C17</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BBB9571A-8E8B-45E9-8BCE-E59F72C2A1A3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

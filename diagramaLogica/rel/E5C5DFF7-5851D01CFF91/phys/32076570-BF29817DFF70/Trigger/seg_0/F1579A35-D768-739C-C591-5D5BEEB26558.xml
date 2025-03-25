@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="Trg_biu_rezervare" directorySegmentName="seg_0" id="F1579A35-D768-739C-C591-5D5BEEB26558">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-11 08:50:12 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body><![CDATA[BEGIN
+IF (SYSDATE <=:new.data_rezervare)
+THEN
+RAISE_APPLICATION_ERROR( -20001,
+'data invalida' );
+END IF;
+END ;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<table>0D2BA1E3-30A7-E74F-5AAA-37F52A89AE69</table>
+</TriggerOraclev10g>

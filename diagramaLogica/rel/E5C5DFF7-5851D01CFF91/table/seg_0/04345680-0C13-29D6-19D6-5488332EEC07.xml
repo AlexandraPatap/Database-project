@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="04345680-0C13-29D6-19D6-5488332EEC07" name="Detalii_angajat">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>BF30E479-91C5-0367-2094-43A6AFEFBD55</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cnp_angajat" id="A8F5F5FF-437B-88A5-AC5A-1309E1959D01">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>A6118622-67D6-935B-1C18-BB4C926ACD49</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC0DAECA-F21C-D594-B50E-7BEE2F1DC3E4" referredColumn="98FAC1D1-4AE7-2FBC-588B-F282A8946FEF"/>
+</associations>
+</Column>
+<Column name="nr_telefon" id="7FF93C82-434B-0627-4D0F-2D29A2923F94">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>1E4B851F-BC1A-E7A2-1322-5506719635D0</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_nasterii" id="729CF3D2-6A2E-65DD-AC41-3B14F4265759">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>EBE5CBF8-E911-7499-3496-8E67D2F17B94</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<constraintName>Detalii_data_nasterii_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="MONTHS_BETWEEN(TO_DATE(&apos;28.10.2024&apos;,&apos;DD.MM.YYYY&apos;),data_nasterii)/12&gt;18"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4AF862E-4866-83D4-1E43-863F5E653CD5" name="Detalii_angajat_PK">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-11 10:43:46 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8F5F5FF-437B-88A5-AC5A-1309E1959D01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="52120BDC-CFDD-C23A-EF85-403724CA81AC" name="Detalii_angajat_nr_telefon_UN">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>7C96B05F-9C01-1023-70CE-D864DC3E448C</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FF93C82-434B-0627-4D0F-2D29A2923F94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD65D5C4-9FE1-A832-087D-C941D7C54110" name="Detalii_angajat__IDX">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7643758D-337F-9064-CC4C-70F4DC6D4D09</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A8F5F5FF-437B-88A5-AC5A-1309E1959D01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4805363B-D86E-6A5F-0DFA-76FCEB2E7311" name="Detalii_angajat_Angajat_FK">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>7643758D-337F-9064-CC4C-70F4DC6D4D09</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8F5F5FF-437B-88A5-AC5A-1309E1959D01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

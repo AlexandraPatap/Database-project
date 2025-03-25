@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="mersul_trenurilor_tren_fk" directorySegmentName="seg_0" id="70614975-5BCA-1E49-86D4-7DB15211EB3D">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-11-09 13:53:30 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="true"/>
+</engineerTo>
+<sourcePk>BBEE8767-C655-DE31-0B5C-5AD140B41874</sourcePk>
+<targetPk>1890E86A-AFEC-6731-36CD-18A220199193</targetPk>
+<identifying>false</identifying>
+<nameOnSource>cuprinde</nameOnSource>
+<nameOnTarget>face parte din </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>EE3786A0-3A37-367F-4686-D9E9F9CED812</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>BBB9571A-8E8B-45E9-8BCE-E59F72C2A1A3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

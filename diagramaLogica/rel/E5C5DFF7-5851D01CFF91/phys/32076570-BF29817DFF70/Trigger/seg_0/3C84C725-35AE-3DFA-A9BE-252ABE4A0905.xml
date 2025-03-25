@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="Trg_biu_mers_tren_data" directorySegmentName="seg_0" id="3C84C725-35AE-3DFA-A9BE-252ABE4A0905">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-09 01:41:34 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body><![CDATA[BEGIN
+IF( SYSDATE >:new.data )
+THEN
+RAISE_APPLICATION_ERROR( -20001,
+'data invalida' );
+END IF;
+END]]></body>
+<triggerTime>BEFORE</triggerTime>
+<table>795E43B0-4C48-B6B0-B7C9-E0D3422FD5A8</table>
+</TriggerOraclev10g>

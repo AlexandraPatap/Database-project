@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="38F31913-8AD5-49AD-BEF4-24F83375E3B8" name="Angajat">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>D9B3F82C-018F-9302-E6CB-9AA5FDF285DB</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cnp_angajat" id="98FAC1D1-4AE7-2FBC-588B-F282A8946FEF">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>8C850F00-CCCD-05D8-2D8A-5ABD60DAEE46</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nume" id="5211BDDA-2579-4E8D-9EBF-4E7B99BD4233">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>40F750E6-505B-07BC-C3F9-D634D3C492AC</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<constraintName>angajat_nume_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="REGEXP_LIKE ( nume, &apos;[a-z A-Z]+&apos; )"/>
+</checkConstraint>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prenume" id="E15BA395-63B0-8005-08B4-EA57B97CF285">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>4319DDBC-32D9-826D-A3EC-E0AC81A8F9A9</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<constraintName>angajat_prenume_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="REGEXP_LIKE ( prenume, &apos;[a-z A-Z]+&apos; )"/>
+</checkConstraint>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="meserie" id="29BD6B23-D5A9-85F6-45CD-B5604E53343E">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>464DD657-4371-A031-99BE-EC5272DB26E9</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_departament" id="E8EFCADF-EE0F-53C7-DDAA-C7B645A8F687">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>A017F4F6-4714-30BA-0077-0B2F568C35EA</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="493B000D-CD70-EEFE-A813-B5461F0139BB" referredColumn="562F6DCC-3FFB-3235-47F2-C862202BA7E1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76779B32-4483-8CA6-7C57-2C88C106AD21" name="Angajat_PK">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>15CFC5E8-1826-0BE2-A29A-2C2E8F9216ED</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98FAC1D1-4AE7-2FBC-588B-F282A8946FEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E09D594-07F4-DE39-B802-8B6FEA9F5159" name="Angajat_Departament_FK">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>BEDD6DF0-E7E0-BB5A-2013-7BB70F662943</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8EFCADF-EE0F-53C7-DDAA-C7B645A8F687"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

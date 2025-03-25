@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BBB9571A-8E8B-45E9-8BCE-E59F72C2A1A3" name="Tren">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-10-27 12:06:40 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_tren" id="40E10B32-73CC-8577-A241-63C5AFA21FDC">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-10-27 12:07:30 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="companie" id="F2EB19A3-9688-A89D-DA9F-EE98601A027C">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-10-27 12:09:25 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="capacitate" id="F207AC66-16DA-9E0D-214C-87246568CEA1">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-10-27 12:09:44 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_gara" id="8B2809E4-9109-EDFF-3CF3-A2142D12EBC2">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-11-08 08:56:35 UTC</createdTime>
+<generatorID>F92AF1CF-37FB-010F-C2B9-A0EB4E94E6C1</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="true"/>
+</engineerTo>
+<referedAttribute>3372AD16-9929-8432-8873-6487D2BE2558</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cnp_angajat" id="F2CFDBBD-AE7C-AAF6-57C4-0B94C284F9D1">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-11-19 21:44:32 UTC</createdTime>
+<generatorID>29B88615-2F95-5F13-6ED2-1BE9A4CBC5AC</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="true"/>
+</engineerTo>
+<referedAttribute>8C850F00-CCCD-05D8-2D8A-5ABD60DAEE46</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1890E86A-AFEC-6731-36CD-18A220199193" name="Tren PK">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-10-27 12:09:17 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>40E10B32-73CC-8577-A241-63C5AFA21FDC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

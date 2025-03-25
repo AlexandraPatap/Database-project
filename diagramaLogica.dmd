@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="diagramaLogica" id="9130C2E6-A2E7-B5A4-B350-2791528EA678" version="3.5">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-10-27 10:27:35 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9130C2E6-A2E7-B5A4-B350-2791528EA678</designId>
+</OSDM_Design>

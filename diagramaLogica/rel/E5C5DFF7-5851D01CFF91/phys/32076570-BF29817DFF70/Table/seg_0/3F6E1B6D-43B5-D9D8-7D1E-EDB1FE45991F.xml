@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Tren" directorySegmentName="seg_0" id="3F6E1B6D-43B5-D9D8-7D1E-EDB1FE45991F">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="companie" id="252D74E6-769B-5964-E025-7111890A1C15">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cnp_angajat" id="3CCA7F14-E341-8965-0112-D952A05D0D9C">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nr_tren" id="64E1117C-3D85-95F8-E523-BCB05F0044BE">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_gara" id="C65F1895-E454-5F4E-3A00-6A0E4B609003">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="capacitate" id="CEBDA251-B01D-4295-DFF8-80BF29A7F860">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Tren_Gara_FK" id="6513E2B3-A330-741D-3350-CA177EA7EB8A">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Tren_Angajat_FK" id="74B34F74-844E-BAA3-5AB8-5812F7AFBD37">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Tren_PK" id="C6702190-AFCF-458F-35D6-4FB4FA025E3C">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

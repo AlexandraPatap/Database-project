@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="493B000D-CD70-EEFE-A813-B5461F0139BB" containerWithKeyObject="38F31913-8AD5-49AD-BEF4-24F83375E3B8" localFKIndex="4E09D594-07F4-DE39-B802-8B6FEA9F5159" name="Angajat_Departament_FK">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>BEDD6DF0-E7E0-BB5A-2013-7BB70F662943</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<referredTableLongName>Departament</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F559CE3D-EE13-F96D-04BD-D221EB530980</referredTableID>
+<keyObject>E0C073B6-AAB4-5EEB-E5A6-C64372BC740E</keyObject>
+<referredKeyID>E0C073B6-AAB4-5EEB-E5A6-C64372BC740E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_departament</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

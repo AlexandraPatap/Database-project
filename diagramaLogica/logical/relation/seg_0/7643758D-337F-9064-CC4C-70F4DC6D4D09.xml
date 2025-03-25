@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="angajat_detalii_angajat_fk" directorySegmentName="seg_0" id="7643758D-337F-9064-CC4C-70F4DC6D4D09">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-11-19 21:42:49 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="true"/>
+</engineerTo>
+<sourcePk>15CFC5E8-1826-0BE2-A29A-2C2E8F9216ED</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>are</nameOnSource>
+<nameOnTarget>sunt ale</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D9B3F82C-018F-9302-E6CB-9AA5FDF285DB</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>BF30E479-91C5-0367-2094-43A6AFEFBD55</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

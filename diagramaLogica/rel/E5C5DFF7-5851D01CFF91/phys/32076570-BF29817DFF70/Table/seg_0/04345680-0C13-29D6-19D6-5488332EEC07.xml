@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Detalii_angajat" directorySegmentName="seg_0" id="04345680-0C13-29D6-19D6-5488332EEC07">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="data_nasterii" id="729CF3D2-6A2E-65DD-AC41-3B14F4265759">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nr_telefon" id="7FF93C82-434B-0627-4D0F-2D29A2923F94">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cnp_angajat" id="A8F5F5FF-437B-88A5-AC5A-1309E1959D01">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Detalii_angajat__IDX" id="DD65D5C4-9FE1-A832-087D-C941D7C54110">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Detalii_angajat_Angajat_FK" id="4805363B-D86E-6A5F-0DFA-76FCEB2E7311">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Detalii_angajat_PK" id="C4AF862E-4866-83D4-1E43-863F5E653CD5">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-11 10:43:46 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="Detalii_angajat_nr_telefon_UN" id="52120BDC-CFDD-C23A-EF85-403724CA81AC">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

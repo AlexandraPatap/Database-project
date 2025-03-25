@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F559CE3D-EE13-F96D-04BD-D221EB530980" name="Departament">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>9B5FF204-E612-9929-B00F-6A5C39944E69</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_departament" id="562F6DCC-3FFB-3235-47F2-C862202BA7E1">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>2763DBCD-AEDA-B923-3FB3-A7FEF89209B6</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementStartWith>101</autoIncrementStartWith>
+<autoIncrementIncrementBy>11</autoIncrementIncrementBy>
+<autoIncrementMaxValue>999</autoIncrementMaxValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nume_departament" id="242364FC-0E51-F983-B916-BB0B1447D3C7">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>121A799B-C984-0326-5C2E-541FB4E2E706</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_gara" id="BF0CC6AA-0135-BB23-97DA-DF95FEE27A42">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>84AA726A-23F2-6D56-5D39-EC8EC1E53C39</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A223C52E-7CD0-D503-906C-A15E0C1EE7B6" referredColumn="2125503E-078A-1661-135F-7596A660CAB5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E0C073B6-AAB4-5EEB-E5A6-C64372BC740E" name="Departament_PK">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>3F8CCD82-E738-5290-B28C-6E6B2141A98D</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="562F6DCC-3FFB-3235-47F2-C862202BA7E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30EA4EA0-9F7C-3FE3-2E7D-AF1C7BA376D2" name="Departament_Gara_FK">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>4064DB34-62B4-98A8-6C30-1FBC9A031E07</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF0CC6AA-0135-BB23-97DA-DF95FEE27A42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

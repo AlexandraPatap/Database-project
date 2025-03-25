@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B17D1B21-CCCF-F487-10BF-BE56837C5189" containerWithKeyObject="0D2BA1E3-30A7-E74F-5AAA-37F52A89AE69" localFKIndex="5F2E2563-C592-5A10-56A4-995707F528D8" name="Rezervare_Pasager_FK">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-08 23:17:18 UTC</createdTime>
+<generatorID>E1871DF2-039B-CACF-8E21-3597EFF03D84</generatorID>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<referredTableLongName>Pasager</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8CC6209D-A9A7-30AD-F40F-84E7D99837F8</referredTableID>
+<keyObject>2A702DA6-DF25-E288-BCEE-C1EA3CFF119A</keyObject>
+<referredKeyID>2A702DA6-DF25-E288-BCEE-C1EA3CFF119A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cnp_pasager</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

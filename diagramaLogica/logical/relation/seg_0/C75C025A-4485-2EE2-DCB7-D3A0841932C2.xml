@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="mers_tren_rezervare_fk" directorySegmentName="seg_0" id="C75C025A-4485-2EE2-DCB7-D3A0841932C2">
+<createdBy>Alexandra</createdBy>
+<createdTime>2024-12-11 10:31:00 UTC</createdTime>
+<ownerDesignName>diagramaLogica</ownerDesignName>
+<engineerTo>
+<item key="E5C5DFF7-38BD-4F06-11C2-5851D01CFF91" value="true"/>
+</engineerTo>
+<sourcePk>BBEE8767-C655-DE31-0B5C-5AD140B41874</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>detine</nameOnSource>
+<nameOnTarget>apartin</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EE3786A0-3A37-367F-4686-D9E9F9CED812</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DD8E78D7-954D-D382-EC76-3041BC0654CA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
